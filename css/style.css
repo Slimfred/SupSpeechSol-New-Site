@@ -1,0 +1,261 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  position: relative;
+}
+
+/***** Base Styles *****/
+
+h1 {
+  font-family: 'Marck Script', cursive;
+	font-size: 2em; /* 28 / 14 */
+	font-weight: bold;
+}
+
+h2 {
+  font-family: 'Cantarell', sans-serif;
+	font-size: 1.714em; /* 24 / 14 */;
+	font-weight: bold;
+  letter-spacing: -1px;
+}
+
+h3 {
+	font-family: 'Cantarell', sans-serif;
+	font-size: 1.429em; /* 20 / 14 */;
+	font-weight: bold;
+  letter-spacing: -1px;
+  /*line-height: 0.5em;*/
+}
+
+h4 {
+	font-family: 'Marck Script', cursive;
+	font-size: 1.285em; /* 18 / 14 */;
+	font-weight: normal;
+	color: #f5f5f5;
+	}
+
+p {
+  font-family: 'Cantarell', sans-serif;
+	font-size: 1.35em;;
+	letter-spacing: -1px;
+}
+
+/**** Navigation ****/
+.navbar {
+  background-color: #990000;
+  border-color: transparent;
+  font-size: 1em;
+  margin-bottom: 0;
+}
+.nav-pills li a {
+  color: #f5f5f5;
+  background-color: #990000;
+  padding: 10px;
+}
+.nav-pills li.active a,
+.nav-pills li.active a:hover
+.nav-pills li.active a:focus {
+    color: #990000;
+    background-color: #f5f5f5;
+}
+.nav-pills li a:hover {
+  background-color: #ffcc00;
+  color: #990000;
+}
+
+
+
+/*** Navbar Header Section ***/
+#home-icon {
+  margin-top: .75%;
+  margin-bottom: .75%;
+}
+#ann-name-contact {
+  margin-left: .75%;
+}
+#ann-name {
+  margin-bottom: .5%;
+  font-size: 1.375em;
+}
+#ann-contact {
+  font-size: 1em;
+  color: #f5f5f5;
+}
+
+/*** Small Screen Menu ***/
+.home-link {
+  height: 100px;
+  background-color: #990000;
+  float: none;
+}
+.col-xs-7 {
+  margin-left: 45%;
+}
+.nav {
+  background-color: #990000;
+  border-color: transparent;
+  font-size: 1.25em;
+  margin-bottom: 0;
+}
+.nav li a {
+  color: #f5f5f5;
+  background-color: #990000;
+}
+.nav li.active a,
+.nav li.active a:hover
+.nav li.active a:focus {
+    color: #990000;
+    background-color: #f5f5f5;
+}
+.small-screen-menu ul li {
+  display: inline-block;
+  font-size: .75em;
+}
+/*** Carousel Testimonials ***/
+#carousel-example-generic {
+  margin-top: 6%;
+}
+.carousel-caption {
+  padding-bottom: 3%;
+}
+.carousel-caption h1 {
+  color: #990000;
+  font-size: 2.25em;
+}
+
+/*** Social Media Buttons ***/
+.experience-box .social-media {
+  margin: 8% auto;
+  padding-left: 23%;
+}
+.prog-contact .social-media {
+  margin: 5% auto;
+  padding-left: 33%;
+}
+.social-media ul {
+  list-style: none;
+  padding-left: 0;
+}
+.social-media li {
+  display: inline-block;
+}
+
+/*** Home Page ***/
+.about-me-box,
+.experience-box,
+.programs-box {
+  margin-top: 2%;
+  padding: 0;
+}
+.programs-box {
+  text-align: center;
+}
+.about-me-box {
+  text-align: center;
+}
+.about-me-box h4 {
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 1px 1px 1px darkgrey;
+  color: #990000;
+}
+.experience-box {
+  font-size: 1.1em;
+}
+
+.burg-button {
+  border-color: black;
+  background-color: white;
+  color: #990000;
+  margin-right: 5%;
+}
+.burg-button:hover,
+.burg-button:focus,
+.burg-button.active,
+.burg-button.active:focus {
+  background-color: #990000;
+  color: #f5f5f5;
+}
+
+/*** Section Headers ***/
+.section-header {
+  background-color: #990000;
+  height: 100%;
+  text-align: center;
+  color: #f5f5f5;
+  margin: 8% 0 1% 0;
+  padding: .25% 0;
+}
+
+/*** About Me Page ***/
+.about-me-columns {
+  padding: 0 2%;
+}
+#about-me-page {
+  margin-top: 15%;
+}
+#about-me-page p {
+    text-indent: 5%;
+}
+.client-comments h2 {
+  text-align: center;
+}
+
+/*** Professional Experience ***/
+.prof-experience {
+  margin-top: 2%;
+}
+
+/*** Programs Page ***/
+.programs {
+  margin: 3%;
+}
+#programs-page h2 {
+  text-align: center;
+}
+#programs-page p {
+    text-indent: 5%;
+}
+.programs-columns {
+  padding: 0 2%;
+}
+.prog-contact {
+  margin-top: 6%;
+}
+.prog-contact h3 {
+  text-align: center;
+  margin-top: 10px;
+}
+
+/*** Contact Page ***/
+.email {
+  margin: 1% 2%;
+}
+.phone-address {
+  margin: 1%;
+}
+.phone-address h2 {
+  display: inline-block;
+  margin: 5px 0;
+}
+.phone {
+  padding: 5% 0;
+}
+.address {
+  padding-bottom: 5%;
+}
+#telephone {
+  width: 6%;
+}
+#snail {
+  width: 8%;
+}
+
+/*** FAQ Page ***/
+.panel-heading h3 {
+  font-size: 1.429em;
+}
+.panel-body p {
+  text-indent: 5%;
+}
