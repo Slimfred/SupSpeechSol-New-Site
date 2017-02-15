@@ -49,6 +49,9 @@ p {
   font-size: 1em;
   margin-bottom: 0;
 }
+.navbar-right {
+  margin-right: 0;
+}
 .nav-pills li a {
   color: #f5f5f5;
   background-color: #990000;
@@ -172,15 +175,19 @@ p {
 }
 .programs-box-full-width {
   text-align: center;
+  margin-top: 2%;
 }
 .programs-box-full-width h3 {
-  margin: .75% 0;
+  margin: 1.25% 0;
 }
 .all-btn-format {
   border-color: black;
   background-color: white;
   color: #990000;
   font-weight: bold;
+}
+.free-button-div {
+  margin: 2%;
 }
 .free-button {
   padding: 5px 10px;
@@ -268,9 +275,21 @@ p {
 }
 
 /*** FAQ Page ***/
+#faq-page {
+  padding-bottom: 5%;
+}
+#faq-page h2 {
+  text-align: center;
+}
 .panel-heading h3 {
   font-size: 1.429em;
 }
 .panel-body p {
   text-indent: 5%;
+}
+#collapseSeven {
+  font-size: 1.25em;
+}
+.indent-ul-faq {
+  margin-left: 5%;
 }
